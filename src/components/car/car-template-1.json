@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_car_car_template_1s",
+  "info": {
+    "displayName": "carTemplate-1",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "description": {
+      "type": "text"
+    },
+    "lowestPrice": {
+      "type": "decimal"
+    },
+    "highestPrice": {
+      "type": "decimal"
+    },
+    "heading": {
+      "type": "text",
+      "maxLength": 100
+    }
+  }
+}

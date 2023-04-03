@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_car_car_template_2s",
+  "info": {
+    "displayName": "carTemplate-2",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "startingPrice": {
+      "type": "decimal"
+    },
+    "rating": {
+      "type": "integer"
+    }
+  }
+}

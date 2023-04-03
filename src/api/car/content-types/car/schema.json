@@ -1,0 +1,57 @@
+{
+  "kind": "collectionType",
+  "collectionName": "cars",
+  "info": {
+    "singularName": "car",
+    "pluralName": "cars",
+    "displayName": "Car",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "uid"
+    },
+    "template": {
+      "type": "string"
+    },
+    "mainImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "company": {
+      "type": "string"
+    },
+    "category": {
+      "type": "string"
+    },
+    "shortDescription": {
+      "type": "text",
+      "maxLength": 200
+    },
+    "tagLine": {
+      "type": "string"
+    },
+    "CarBlog": {
+      "type": "dynamiczone",
+      "components": [
+        "car.car-template-1",
+        "car.car-template-2"
+      ],
+      "max": 1
+    }
+  }
+}
